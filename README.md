@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/remaster
 # jeremyrjohnson8.github.io
@@ -19,3 +20,6 @@ Personal website - built off the Cayman github style
 >>>>>>> master
 =======
 >>>>>>> origin/remaster
+=======
+Personal Webpage - built from GitHub Cayman Theme
+>>>>>>> remastered
