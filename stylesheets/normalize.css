@@ -427,22 +427,34 @@ th {
     display: table;
     height: 87px;
     width: 100%;
-}
-
-#nav li {
-    display: table-cell;
-    height: 87px;
-    width: 16.666666667%;  /* (100 / numItems)% */
-    line-height: 87px;
-    text-align: center;
-    background: #ddd;
-    border-right: 1px solid #fff;
-    white-space: nowrap;
-}​
+f
 
 @media (max-width: 767px) {
     #nav li {
         display: block;
         width: 100%;
     }
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: inline-block;
+    color: White;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #555;
 }
